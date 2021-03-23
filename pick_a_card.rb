@@ -1,5 +1,3 @@
-puts "Pick a Card."
-
 values = ["2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A"]
 
 # Создадим массив с набором мастей.
@@ -14,7 +12,7 @@ values.each do |value|
   end
 end
 
-card.shuffle!
+cards.shuffle!
 
 puts 'How many cards do you pick'
 
